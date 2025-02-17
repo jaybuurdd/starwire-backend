@@ -14,8 +14,8 @@ def register_endpoints():
     api = FastAPI()
 
     origins = [
-        # 'https://app.starwire.io',
-        'http://localhost:3000'
+        'https://app.starwire.io',
+        # 'http://localhost:3000'
     ]
 
     api.add_middleware(
